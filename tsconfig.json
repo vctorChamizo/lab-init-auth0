@@ -8,7 +8,18 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "paths": {
-      "@log": ["lib/log"],
-    }
+      "@log": [
+        "lib/log"
+      ],
+      "@constants": [
+        "utils/constants"
+      ],
+      "@enums": [
+        "enums"
+      ],
+      "@config": [
+        "config/index"
+      ]
+    },
   }
 }
